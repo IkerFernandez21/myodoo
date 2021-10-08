@@ -76,3 +76,17 @@ rm backupCopy2_db1.zip
 rm backup_db1.zip 
 cd Esc
 exit
+cd 
+cd opt
+ls
+cd dumps
+ls
+git status
+clear
+git add .
+git commit -am 'Segunda copia de seguirdad de la base de datos'
+git log
+git push origin master 
+cp backupCopy2_db1.zip.gpg backup_db1.zip.gpg 
+sudo cp backupCopy2_db1.zip.gpg backup_db1.zip.gpg 
+exit
