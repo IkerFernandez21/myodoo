@@ -1,0 +1,5 @@
+#Excluimos que github haga un push de estos archivos
+
+.gnupg/
+.gitlocal/
+.git-credentials/

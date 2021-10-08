@@ -32,3 +32,25 @@ ls -a
 rm -rf .git
 sudo rm -rf .git
 exit
+cd ..
+ls
+cd odoo
+cd home
+ls
+cd odoo
+pwd
+cd ..
+cd opt
+cd odoo
+mkdir dumps
+ls
+mv /home/dammie/Escritorio/copiaseguridadodoo/backup_db1.zip.gpg dumps/
+exit
+cd
+cd opt
+cd home
+ls
+cd dumps
+ls
+ls -ls
+exit

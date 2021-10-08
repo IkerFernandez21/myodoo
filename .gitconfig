@@ -1,0 +1,7 @@
+[user]
+	email = iker.fernandezdelrosario@gmail.com
+	name = iker
+[core]
+	editor = nano
+[credential]
+	helper = store
