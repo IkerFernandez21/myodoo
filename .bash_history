@@ -54,3 +54,25 @@ cd dumps
 ls
 ls -ls
 exit
+ls
+ls -a
+more .gitconfig
+cd ..
+ls
+ls -a
+git config --global credential.helper store
+ls
+ls -ls 
+nano .gitignore
+git status
+git add .
+git commit -am 'subiendo la base de datos encriptada'
+git log
+git push origin master 
+wget --post-data 'master_pwd=123456&name=db1Copy2&backup_format=zip' -O ./backup_db1.zip http://localhost:8069/web/database/backup
+wget --post-data 'master_pwd=123456&name=db1&backup_format=zip' -O ./backupCopy2_db1.zip http://localhost:8069/web/database/backup
+ls
+rm backupCopy2_db1.zip 
+rm backup_db1.zip 
+cd Esc
+exit
